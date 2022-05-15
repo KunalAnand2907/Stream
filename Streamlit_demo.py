@@ -1,4 +1,3 @@
-from ObjectCount_1 import *
 import streamlit as st
 import cv2
 import pickle
