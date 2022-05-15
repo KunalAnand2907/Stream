@@ -131,7 +131,7 @@ def main():
   object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=40)
 
   cap = cv2.VideoCapture(
-      r'C:\Users\KUNAL\PycharmProjects\IndustryProject\Object_Tracker\Combined.mp4')  # 1 for multiple videos
+      r'C:\Users\KUNAL\PycharmProjects\IndustryProject\Combined.mp4')  # 1 for multiple videos
 
   frame_width = int(cap.get(3))
   frame_height = int(cap.get(4))
